@@ -4,8 +4,8 @@ import { Strategy } from "./services/strategy";
 
 export const parse = (
   text: string,
-  separator = "\n",
-  packageManagerMap: { [pm: string]: PackageManager }
+  packageManagerMap: { [pm: string]: PackageManager },
+  separator = "\n"
 ): Strategy[] => {
   return text
     .split(separator)
