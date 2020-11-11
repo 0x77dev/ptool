@@ -1,0 +1,10 @@
+{
+  "name": "@ptool/base",
+  "version": "0.0.0",
+  "description": "Package tool is a library/software for ultimate package installing",
+  "repository": "https://github.com/0x77dev/ptool.git",
+  "author": "Mikhail Marynenko <0x77dev@protonmail.com>",
+  "license": "GPL-3.0",
+  "private": true,
+  "workspaces": ["packages/*"]
+}

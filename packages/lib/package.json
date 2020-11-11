@@ -1,0 +1,17 @@
+{
+  "name": "@ptool/lib",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "repository": "https://github.com/0x77dev/ptool.git",
+  "author": "Mikhail Marynenko <0x77dev@protonmail.com>",
+  "license": "GPL-3.0",
+  "private": false,
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "prepublishOnly": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.5"
+  }
+}
